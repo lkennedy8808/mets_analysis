@@ -1,8 +1,9 @@
-
 # When Does Hitting the Ball Harder Matter?
 ### Predicting Offensive Outcomes Using 2026 MLB Statcast Data
 Leo Kennedy  
 George Washington University | Data Science
+
+**[View Full Report](https://lkennedy8808.github.io/mets_analysis/)** | **[Download PDF](report.pdf)**
 
 ## Project Overview
 Using 124,100 batted balls with tracking data from the 2026 MLB season, I explored whether including launch angle helps predict offensive outcomes beyond exit velocity alone. I fit four logistic regression models and compared them using data from July, August, and September as out-of-sample data. I also applied the best-performing model to predict hits for New York Mets batters, comparing expected and observed hits as well as changes in contact quality between the first and second halves of the season.
