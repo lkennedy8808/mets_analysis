@@ -1,0 +1,131 @@
+/* Navy: #002D72 | Orange: #FF5910 */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Arial, sans-serif;
+  color: #253246;
+  line-height: 1.75;
+  background-color: #ffffff;
+}
+
+/* Main report area */
+#quarto-document-content {
+  max-width: 900px;
+}
+
+/* Report title */
+.quarto-title .title {
+  color: #002D72;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 1.15;
+  font-size: 2.5rem;
+}
+
+.quarto-title .subtitle {
+  color: #53657b;
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+.quarto-title-meta {
+  border-bottom: 3px solid #FF5910;
+  padding-bottom: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Section headings */
+h1 {
+  color: #002D72;
+  font-weight: 750;
+  padding-bottom: 0.45rem;
+  border-bottom: 2px solid #FF5910;
+  margin-top: 2.5rem;
+}
+
+h2 {
+  color: #002D72;
+  font-weight: 650;
+  margin-top: 2rem;
+}
+
+h3 {
+  color: #314A68;
+}
+
+/* Navigation */
+#TOC a {
+  color: #43546d;
+}
+
+#TOC a:hover,
+#TOC .active {
+  color: #002D72 !important;
+  font-weight: 600;
+}
+
+/* Tables */
+table {
+  font-size: 0.94rem;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table thead th {
+  background-color: #002D72;
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem;
+}
+
+table tbody td {
+  padding: 0.65rem 0.75rem;
+  border-bottom: 1px solid #e4e8ef;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #f5f7fb;
+}
+
+table tbody tr:hover {
+  background-color: #eaf0f8;
+}
+
+/* Figures */
+figure {
+  margin: 2rem auto;
+}
+
+figure img,
+p > img {
+  border-radius: 6px;
+  max-width: 100%;
+}
+
+figcaption,
+.figure-caption {
+  color: #617187;
+  font-size: 0.88rem;
+  text-align: center;
+}
+
+/* Links */
+a {
+  color: #0066A4;
+}
+
+a:hover {
+  color: #FF5910;
+}
+
+/* Key findings and callouts */
+.callout {
+  border-radius: 6px;
+  margin: 1.5rem 0;
+}
+
+/* References */
+#references,
+#references + section {
+  font-size: 0.94rem;
+}
